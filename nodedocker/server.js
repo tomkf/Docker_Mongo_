@@ -12,7 +12,7 @@ var app = express();
 // Environment variables
 let confPath = path.join(__dirname,'.env' );
 dotenv.config({ path: confPath });
-var port = process.env.PORT || 9000;
+var port = process.env.PORT || 3000;
 var db_server = process.env.DB_SERVER || "localhost";
 
 // View engine
